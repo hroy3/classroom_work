@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.menu_items {
+    background-color: darkgoldenrod;
+    /* Make span behave like a block element */
+    /* display: block;
+    width: 20%; */
+    /* Box Model */
+    border-style: solid;
+    border-radius: 5%;
+    margin: 2%;
+    padding: 1%;
+
+}
+
+nav {
+    /* Move to left or right of page: float 
+    This causes an element to overlap with other elements. Use Box Model and clear element 
+    to prevent issues. See h1, h2*/
+    /* float: right; */
+    background-color: teal;
+}
+
+.menu_list {
+    display: inline-block;
+    background-color: teal !important;
+}
+
+.logo {
+    float: right;
+    background-color: teal;
+    border-style: solid;
+    border-radius: 5%;
+    margin: 2%;
+    padding: 1%;
+}
+
+div {
+    background-color: mediumaquamarine;
+    width: 20%;
+    /* Make div behave like an inline element */
+    display: inline-block;
+    /* Prevent content from overflowing on a smaller screen */
+    overflow: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+    /* Prevent floating elements from overlapping */
+    clear: both;
+}
+
+img {
+    width: 50px !important;
+}
